@@ -1,0 +1,83 @@
+tpikies_fractals
+Construct a program printing a pattern given by recursive formula.
+The basic shape is
+ # #
+#####
+ # #
+#####
+ # #
+generalised to size n by n. I.e. columns and rows (a grid) made of '#'.
+
+Keep in mind that a # should be printed if it would be printed considering all levels in the constructed figure.
+Input n, k.
+Output:
+recursive pattern of k-th level.
+
+Example:
+Input:
+3 2
+Output:
+    #
+   ###
+    #
+ #  #  #
+#########
+ #  #  #
+    #
+   ###
+    #
+
+
+Example:
+Input:
+3 3
+Output:
+             #
+            ###
+             #
+          #  #  #
+         #########
+          #  #  #
+             #
+            ###
+             #
+    #        #        #
+   ###      ###      ###
+    #        #        #
+ #  #  #  #  #  #  #  #  #
+###########################
+ #  #  #  #  #  #  #  #  #
+    #        #        #
+   ###      ###      ###
+    #        #        #
+             #
+            ###
+             #
+          #  #  #
+         #########
+          #  #  #
+             #
+            ###
+             #
+
+Example:
+Input
+2 2
+Output:
+   #
+  ##
+ # #
+####
+
+Example
+Input
+2 3
+Output
+       #
+      ##
+     # #
+    ####
+   #   #
+  ##  ##
+ # # # #
+########
