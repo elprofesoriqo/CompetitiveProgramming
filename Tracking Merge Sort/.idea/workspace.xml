@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="47dd1246-f343-40c8-a3dc-ebd68f2b9a0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="47dd1246-f343-40c8-a3dc-ebd68f2b9a0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +53,7 @@
       <updated>1729427771654</updated>
       <workItem from="1729427772773" duration="3000" />
       <workItem from="1729430659020" duration="6000" />
+      <workItem from="1729431072138" duration="9000" />
     </task>
     <servers />
   </component>
