@@ -5,11 +5,11 @@ void solution(int n, int m, int s, vector<bool>& occupied) {
     int i=1;
     int idx=s;
     while(i<=max(n-s, s)) {
-        if(idx+1 <= n && !occupied[idx+i]) {
-            cout<<idx+i<<endl;
-            return;
-        }else if(idx-i>=1 && !occupied[idx-i]) {
+        if(idx-i>=1 && !occupied[idx-i]) {
             cout<<idx-i<<endl;
+            return;
+        }else if(idx+1 <= n && !occupied[idx+i]) {
+            cout<<idx+i<<endl;
             return;
         }
         i++;
